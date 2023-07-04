@@ -1,0 +1,10 @@
+{
+  "name": "sugar-free",
+  "version": "1.0.0",
+  "description": "Syntactic sugar free JS",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
