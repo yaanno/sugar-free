@@ -3,9 +3,9 @@ function Point(spec) {
 
   const displayName = "Point";
 
-  function distance(a, b) {
-    const dx = a.x - b.x;
-    const dy = a.y - b.y;
+  function distance(b) {
+    const dx = x - b.x;
+    const dy = y - b.y;
 
     return Math.hypot(dx, dy);
   }
@@ -22,4 +22,6 @@ const p2 = Point({ x: 10, y: 10 });
 
 // TODO: difference here
 console.log(p1.displayName);
-console.log(p1.distance(p1, p2));
+console.log(p1.distance(p2));
+console.log(p2.displayName);
+console.log(p2.distance(p1));
